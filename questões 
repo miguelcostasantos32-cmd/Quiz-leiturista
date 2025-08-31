@@ -1,0 +1,486 @@
+export const QUESTIONS = [
+  {
+    "id": "pt1",
+    "category": "Português",
+    "question": "A palavra 'participativos' é classificada morfologicamente como:",
+    "options": [
+      "Substantivo",
+      "Adjetivo",
+      "Verbo",
+      "Advérbio"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "pt2",
+    "category": "Português",
+    "question": "Assinale a alternativa em que há erro de concordância:",
+    "options": [
+      "Os fiscais analisaram corretamente os hidrômetros.",
+      "Havia muitas pessoas aguardando atendimento.",
+      "Fazem dois anos que trabalho na SAE.",
+      "A leitura das contas estava correta."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "pt3",
+    "category": "Português",
+    "question": "Identifique o período composto por subordinação:",
+    "options": [
+      "A água é essencial à vida, e deve ser usada com consciência.",
+      "Embora estivesse cansado, o leiturista terminou o serviço.",
+      "Ele conferiu os dados e anotou no sistema.",
+      "Cortaram a ligação da casa, mas religaram no dia seguinte."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "pt4",
+    "category": "Português",
+    "question": "Qual alternativa apresenta erro de regência verbal?",
+    "options": [
+      "Assisti ao filme.",
+      "Prefiro água a refrigerante.",
+      "Cheguei em casa cedo.",
+      "Obedeci às normas."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "pt5",
+    "category": "Português",
+    "question": "Assinale a alternativa em que há uso incorreto da vírgula:",
+    "options": [
+      "O hidrômetro, que estava quebrado, foi substituído.",
+      "Ontem, o leiturista passou na minha rua.",
+      "O fiscal verificou, e anotou os dados.",
+      "A leitura foi feita corretamente, segundo o relatório."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "pt6",
+    "category": "Português",
+    "question": "O plural de 'cidadão' é:",
+    "options": [
+      "Cidadões",
+      "Cidadãos",
+      "Cidadães",
+      "Cidões"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "pt7",
+    "category": "Português",
+    "question": "Qual é o sujeito da frase: 'Houve problemas nas leituras.'?",
+    "options": [
+      "Houve",
+      "Problemas",
+      "Leituras",
+      "Frase sem sujeito"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "pt8",
+    "category": "Português",
+    "question": "O antônimo de 'eficiente' é:",
+    "options": [
+      "Competente",
+      "Eficaz",
+      "Ineficiente",
+      "Útil"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "pt9",
+    "category": "Português",
+    "question": "Qual alternativa está corretamente acentuada?",
+    "options": [
+      "Idéia",
+      "Heroi",
+      "Lápis",
+      "Voce"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "pt10",
+    "category": "Português",
+    "question": "Na frase 'O leiturista verificou o hidrômetro rapidamente', o termo 'rapidamente' é:",
+    "options": [
+      "Adjetivo",
+      "Substantivo",
+      "Advérbio",
+      "Verbo"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "mt1",
+    "category": "Matemática",
+    "question": "Um hidrômetro registrou 3.475 m³ e depois 3.689 m³. Qual foi o consumo?",
+    "options": [
+      "194 m³",
+      "214 m³",
+      "224 m³",
+      "234 m³"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "mt2",
+    "category": "Matemática",
+    "question": "Resolva: 3x + 7 = 19",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "mt3",
+    "category": "Matemática",
+    "question": "18 km em 3h. Quantos km em 5h?",
+    "options": [
+      "25 km",
+      "27 km",
+      "28 km",
+      "30 km"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "mt4",
+    "category": "Matemática",
+    "question": "Quanto é 25% de 480?",
+    "options": [
+      "100",
+      "110",
+      "120",
+      "130"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "mt5",
+    "category": "Matemática",
+    "question": "Se a conta de água foi R$ 56,00 e sofreu reajuste de 12%, qual o novo valor?",
+    "options": [
+      "R$ 60,32",
+      "R$ 61,72",
+      "R$ 62,72",
+      "R$ 63,32"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "mt6",
+    "category": "Matemática",
+    "question": "Calcule: 15² − 10²",
+    "options": [
+      "125",
+      "150",
+      "175",
+      "225"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "mt7",
+    "category": "Matemática",
+    "question": "A média de 12, 15, 18 é:",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "mt8",
+    "category": "Matemática",
+    "question": "Se 5 canetas custam R$ 12,50, quanto custam 8 canetas?",
+    "options": [
+      "R$ 18,50",
+      "R$ 19,00",
+      "R$ 20,00",
+      "R$ 22,00"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "mt9",
+    "category": "Matemática",
+    "question": "O valor absoluto de −27 é:",
+    "options": [
+      "−27",
+      "0",
+      "27",
+      "30"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "mt10",
+    "category": "Matemática",
+    "question": "Se um reservatório tem 500 L e perde 15%, quanto resta?",
+    "options": [
+      "400 L",
+      "410 L",
+      "425 L",
+      "430 L"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "cg1",
+    "category": "Conhecimentos Gerais",
+    "question": "A capital de Goiás é:",
+    "options": [
+      "Goiânia",
+      "Catalão",
+      "Anápolis",
+      "Brasília"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "cg2",
+    "category": "Conhecimentos Gerais",
+    "question": "Catalão é conhecida pela produção de:",
+    "options": [
+      "Soja e milho",
+      "Café",
+      "Borracha",
+      "Cana-de-açúcar"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "cg3",
+    "category": "Conhecimentos Gerais",
+    "question": "O Brasil é dividido em quantas regiões geográficas?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "cg4",
+    "category": "Conhecimentos Gerais",
+    "question": "A Constituição Federal vigente é de:",
+    "options": [
+      "1967",
+      "1977",
+      "1988",
+      "1998"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "cg5",
+    "category": "Conhecimentos Gerais",
+    "question": "O hino nacional tem letra/música de:",
+    "options": [
+      "Dom Pedro I",
+      "Osório Duque Estrada e Francisco Manuel da Silva",
+      "Carlos Gomes",
+      "Villa-Lobos"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "cg6",
+    "category": "Conhecimentos Gerais",
+    "question": "O bioma predominante em Goiás é:",
+    "options": [
+      "Amazônia",
+      "Cerrado",
+      "Mata Atlântica",
+      "Caatinga"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "cg7",
+    "category": "Conhecimentos Gerais",
+    "question": "A bandeira do Brasil possui quantas estrelas?",
+    "options": [
+      "26",
+      "27",
+      "28",
+      "29"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "cg8",
+    "category": "Conhecimentos Gerais",
+    "question": "O poder legislativo municipal é exercido pela:",
+    "options": [
+      "Câmara Municipal",
+      "Assembleia Legislativa",
+      "Senado Federal",
+      "Prefeitura"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "cg9",
+    "category": "Conhecimentos Gerais",
+    "question": "A Proclamação da República ocorre em:",
+    "options": [
+      "7 de setembro",
+      "15 de novembro",
+      "21 de abril",
+      "25 de dezembro"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "cg10",
+    "category": "Conhecimentos Gerais",
+    "question": "Município é ente federativo com autonomia garantida por:",
+    "options": [
+      "Lei Orgânica Municipal",
+      "Decreto Estadual",
+      "Resolução Federal",
+      "Portaria Municipal"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es1",
+    "category": "Conhecimentos Específicos",
+    "question": "Função principal do hidrômetro:",
+    "options": [
+      "Medir pressão",
+      "Medir qualidade",
+      "Medir volume de água consumido",
+      "Controlar esgoto"
+    ],
+    "answerIndex": 2,
+    "image": "/images/hidrometro1.png"
+  },
+  {
+    "id": "es2",
+    "category": "Conhecimentos Específicos",
+    "question": "Travamento do hidrômetro pode causar:",
+    "options": [
+      "Medição incorreta/nula",
+      "Aumento de pressão",
+      "Redução da qualidade",
+      "Melhor aferição"
+    ],
+    "answerIndex": 0,
+    "image": "/images/hidrometro1.png"
+  },
+  {
+    "id": "es3",
+    "category": "Conhecimentos Específicos",
+    "question": "Responsabilidade do leiturista em corte/religação:",
+    "options": [
+      "Apenas observar",
+      "Religação sem registro",
+      "Seguir normas técnicas",
+      "Fiscalizar esgoto"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "es4",
+    "category": "Conhecimentos Específicos",
+    "question": "A leitura deve ser feita:",
+    "options": [
+      "Uma vez por ano",
+      "Apenas em reclamações",
+      "Periodicamente conforme cronograma",
+      "Nunca"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "es5",
+    "category": "Conhecimentos Específicos",
+    "question": "O hidrômetro mede em:",
+    "options": [
+      "Litros",
+      "Metros cúbicos",
+      "Quilogramas",
+      "Pressão"
+    ],
+    "answerIndex": 1,
+    "image": "/images/hidrometro2.png"
+  },
+  {
+    "id": "es6",
+    "category": "Conhecimentos Específicos",
+    "question": "Qual atitude correta diante de fraude em hidrômetro?",
+    "options": [
+      "Ignorar",
+      "Comunicar oficialmente",
+      "Corrigir sozinho",
+      "Desligar sem registro"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es7",
+    "category": "Conhecimentos Específicos",
+    "question": "A função do lacre no hidrômetro é:",
+    "options": [
+      "Evitar vazamentos",
+      "Garantir inviolabilidade",
+      "Melhorar medição",
+      "Reduzir pressão"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es8",
+    "category": "Conhecimentos Específicos",
+    "question": "Ao identificar consumo anormal:",
+    "options": [
+      "Ignorar",
+      "Notificar responsável",
+      "Corrigir imediatamente",
+      "Aumentar tarifa"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es9",
+    "category": "Conhecimentos Específicos",
+    "question": "A leitura é registrada:",
+    "options": [
+      "Manual em papel",
+      "Sistema eletrônico/aplicativo",
+      "De cabeça",
+      "Somente quando solicitado"
+    ],
+    "answerIndex": 1,
+    "image": "/images/hidrometro3.png"
+  },
+  {
+    "id": "es10",
+    "category": "Conhecimentos Específicos",
+    "question": "Normas da SAE seguem:",
+    "options": [
+      "Ministério da Saúde e agências reguladoras",
+      "Prefeitura apenas",
+      "INMETRO apenas",
+      "Sem regulação"
+    ],
+    "answerIndex": 0
+  }
+];
